@@ -2,7 +2,7 @@ name: Twitter Scraper
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # 30分ごとに実行（短くしたい場合は "*/10 * * * *" に変更）
+    - cron: "0 * * * *"  # 30分ごとに実行（短くしたい場合は "*/10 * * * *" に変更）
   workflow_dispatch:  # 手動実行も可能にする
 
 jobs:
