@@ -4,7 +4,7 @@ import os
 
 # 検索するアカウントとキーワード
 TARGET_ACCOUNTS = ["account1", "account2"]  # 取得したいXアカウントのID
-KEYWORDS = ["ストレージ"]  # 含まれているべき単語
+KEYWORDS = ["ストレージ","デュエ"]  # 含まれているべき単語
 
 # Discord Webhook URL
 DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")
