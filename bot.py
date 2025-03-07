@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import os
 
 # 検索するアカウントとキーワード
-TARGET_ACCOUNTS = ["account1", "account2"]  # 取得したいXアカウントのID
+TARGET_ACCOUNTS = ["ds_izumisano", "furu1_AMrinkuu"]  # 取得したいXアカウントのID
 KEYWORDS = ["ストレージ","デュエ"]  # 含まれているべき単語
 
 # Discord Webhook URL
